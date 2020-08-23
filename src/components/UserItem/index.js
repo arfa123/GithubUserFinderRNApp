@@ -4,7 +4,8 @@ import {
 	Text,
 	Image,
 	TouchableOpacity,
-	StyleSheet
+	StyleSheet,
+	Linking
 } from "react-native";
 
 const UserItem = ({ username, githubUrl, avatarUrl, onUserSelect }) => {
